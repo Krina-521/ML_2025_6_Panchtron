@@ -1,9 +1,9 @@
 # ML_2025_6_Panchtron
 
 ### Group member details:
-| Member Name | Email Id | Roll No |
+| Member Name | Email Id | Enrollment No |
 | ------------|----------|---------|
-| Krina Khakhariya | krina.k@ahduni.edu.in | AU24440005 |
+| Krina Khakhariya | krina.k@ahduni.edu.in | AU2444005 |
 | Urjit Mehta | urjit.m@ahduni.edu.in | AU2444007 |
 | Brijesh Munjiyasara | brijesh.m@ahduni.edu.in | AU2444011 |
 | Khushi Agrawal | khushi.a2@ahduni.edu.in | AU2444006 |
