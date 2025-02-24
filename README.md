@@ -25,3 +25,40 @@ RSImod (readiness measure).
   - Report your findings, whether generic or cluster-based.
  
 - **Dataset:** Athlete Dataset
+
+
+# Developer Guidelines  
+
+1. All code must be written in a **.ipynb (Jupyter Notebook)** file with proper markdown explanations and comments. Files should be placed in the correct folder with meaningful names.  
+
+2. Use **Python 3** and **pip3** for installing and running any libraries.  
+
+3. Every developer **must create a virtual environment** inside the project folder before starting work.  
+
+4. The virtual environment **must be named** `venv` (no other name is allowed).  
+
+5. When installing a new library, developers **must run the following command inside the virtual environment** before pushing any changes to Git:  
+   ```
+   pip3 freeze > requirements.txt
+   ```  
+
+6. To install all required libraries from `requirements.txt`, use:  
+   ```
+   pip3 install -r requirements.txt
+   ```  
+
+7. **Use Git Properly**  
+   - Pull the latest changes from the main branch before starting work.  
+   - Commit frequently with meaningful commit messages.  
+   - Before pushing code, test it to ensure everything runs smoothly.
+   - Developers **must work in their own branch**, named after their **first name** (e.g., `john`).  
+   - **Direct merging into the main branch is not allowed.** All code must be reviewed and approved by **Krina Khakhariya** before merging.  
+
+8. **Follow Clean Code Practices**  
+   - Use meaningful variable and function names.  
+
+9. **Security Best Practices**  
+   - Do not commit sensitive data (API keys, passwords, etc.).  
+   - Use `.gitignore` to exclude unnecessary or sensitive files.  
+
+10. Write docstrings for functions and classes to explain their purpose and usage.  
